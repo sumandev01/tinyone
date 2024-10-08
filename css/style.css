@@ -79,7 +79,7 @@ header{
 	font-size: 42px;
 	color: #010101;
 	margin-right: 35px;
-	trasition: 0.3s linear;
+	transition: 0.3s linear;
 }
 .slider_icon ul li i:hover{
 	transform: scale(0.8);
@@ -103,7 +103,7 @@ header{
 	font-size: 50px;
 	color: #010101;
 	margin-top: 6px;
-	trsition: 0.3s linear;
+	transition: 0.3s linear;
 }
 .f_icon ul li i:hover{
 	transform: scale(0.8);
