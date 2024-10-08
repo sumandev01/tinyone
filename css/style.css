@@ -1,0 +1,193 @@
+body{
+	font-family: "PT Sans", system-ui;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+	padding-top: 109px;
+}
+/*common css start*/
+.c_title{
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;
+	margin-bottom: 14px;
+}
+.c_description{
+	font-weight: 400;
+	font-size: 20px;
+	color: #898989;
+}
+/*common css end*/
+/*header css start*/
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+.m_button:focus{
+	outline: 0;
+}
+#header_menu ul li a{
+	font-family: "PT Sans", system-ui;
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101;
+	padding-right: 70px;
+}
+#header_menu ul li a:hover{
+	color: #fff;
+}
+#header_menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header css end*/
+/*slider css start*/
+.slider{
+	background-color: #fcdb00;
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+#tinyone_slider .carousel-indicators{
+    margin-bottom: -3rem;
+}
+#tinyone_slider .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.slider_text{
+	padding: 70px 0;
+}
+.slider_text h1{
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;
+	margin-bottom: 20px;
+}
+.slider_text h2{
+	font-size: 22px;
+	color: #313841;
+	margin-bottom: 30px;
+}
+.slider_text p{
+	color: #555555;
+	margin: 0;
+}
+.slider_icon{
+	margin-top: 50px;
+}
+.slider_icon ul li i{
+	font-size: 42px;
+	color: #010101;
+	margin-right: 35px;
+	trasition: 0.3s linear;
+}
+.slider_icon ul li i:hover{
+	transform: scale(0.8);
+}
+.slider_img{
+	text-align: center;
+}
+/*slider css end*/
+/*feature css start*/
+.feature{
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.f_top .c_description{
+	color: #313841;
+}
+.f_bottom{
+	margin-top: 70px;
+}
+.f_icon ul li i{
+	font-size: 50px;
+	color: #010101;
+	margin-top: 6px;
+	trsition: 0.3s linear;
+}
+.f_icon ul li i:hover{
+	transform: scale(0.8);
+}
+.f_text h1{
+	font-weight: 500;
+	font-size: 22px;
+	color: #010101;
+	margin-bottom: 14px;
+}
+.f_text p{
+	margin: 0;
+	letter-spacing: 1px;
+}
+/*feature css end*/
+/*contact css start*/
+.contact{
+	background-color: #010101;
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.contact_top .c_title{
+	color: #fcdb00;
+}
+.c_form{
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.c_form input{
+	width: 100%;
+	height: 50px;
+	font-family: "PT Sans", system-ui;
+	font-weight: 400;
+	font-size: 16px;
+	color: #898989;
+	padding: 18px 24px;
+}
+.c_form input:focus{
+	box-shadow: 0 0 0 .25rem rgb(255 214 0 / 16%);
+}
+.c_form button{
+	width: 100%;
+	height: 50px;
+	font-family: "PT Sans", system-ui;
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #010101;
+	background-color: #fcdb00;
+}
+.c_form button:hover{
+	color: #010101;
+	background-color: #fff;
+}
+.contact_icon li{
+	margin-right: 30px !important;
+}
+.contact_icon li:last-child{
+	margin-right: 0 !important;
+}
+.contact_icon i{
+	font-size: 35px;
+	color: #fcdb00;
+	transition: 0.3s linear;
+}
+.contact_icon i:hover{
+	color: #fff;
+}
+
+/*contact css end*/
+/*footer css start*/
+footer{
+	background-color: #010101;
+	padding-bottom: 100px;
+}
+.f_address{
+	color: #fff;
+}
+.f_link ul li a{
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.f_link ul li a:hover{
+	color: #fcdb00;
+}
+/*footer css end*/
